@@ -14,14 +14,11 @@
  *= require_self
  */
 
-
-
 body {
-    background-color: #ffffff;
-    color: #333333;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
-    display: block
+  ackground-color: #ffffff;
+  color: #333333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
