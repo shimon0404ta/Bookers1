@@ -1,11 +1,14 @@
+<div class="messege">
+    <p id="notice">
+        <%= notice %>
+    </p>
+</div>
 
+<p><span>Title: </span><%= @book.title %></p>
+<P><span>Body: </span><%= @book.body %></P>
 
-<h2>Title: </h2>
-<p><%= @book.title %></p>
-
-<h2>Body: </h2>
-<p><%= @book.body %></p>
-
-
-
-<!--%= link_to "Edit", edit_list_path(@Book.id) %-->
+<div class="link">
+    <%= link_to "Edit", edit_book_path(@book.id) %>
+    <%= " ｜ " %>
+    <%= link_to "Back", books_path %>
+</div>
